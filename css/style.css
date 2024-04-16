@@ -1,0 +1,692 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+/*! RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/************! HEADER ************/
+/**antiguo nav sin bootstrap*/
+/* header {
+    background-color: rgb(255, 255, 255);
+
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    color: #cf1717;
+    text-align: left;
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    font-family: "Oswald", sans-serif;
+    font-size: 22px;
+} */
+
+/**********? HERO ***********/
+.hero {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero a {
+    color: rgb(255, 255, 255);
+    list-style: none;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    border: 1px solid #ffffff;
+    padding: 4px 20px 8px 20px;
+}
+
+.hero h2 {
+    font-family: "Oswald", sans-serif;
+    color: #fffcfc;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.hero p {
+    font-family: "Oswald", sans-serif;
+    color: #ffffff;
+    font-size: 22px;
+    margin: 0px 20px 10px 20px;
+}
+
+.hero {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(5, 7, 12, 0.70), rgba(5, 7, 12, 0.70)), url(../img/logo.jpeg);
+    width: 100%;
+    height: 650px;
+}
+
+/*********? Infor ***********/
+
+.infor {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    background-color: rgb(92, 92, 92);
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+.infor div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infor h3 {
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.infor p {
+    font-size: 25px;
+    font-weight: 380;
+}
+
+.infor a {
+    color: rgb(0, 0, 0);
+    list-style: none;
+    text-decoration: none;
+    background-color: rgb(92, 92, 92);
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 4px 20px 8px 20px;
+    margin: 8px;
+}
+
+.infor img {
+    width: 45vh;
+    height: 50vh;
+}
+
+/**********? atletas ***********/
+
+.atletas {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    background-color: rgb(92, 92, 92);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+}
+
+.atletas h4 {
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+}
+
+.atletas iframe {
+    width: 100vh;
+    height: 600px;
+}
+
+/**********? compras ***********/
+
+.compras {
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+    background-color: hsl(0, 0%, 0%);
+}
+
+.compras div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(255, 255, 255);
+    height: 440px;
+    width: 290px;
+    border-radius: 10px;
+}
+
+.compras img {
+    padding: 8px 0px 3px 0px;
+    width: 240px;
+    height: 240px;
+}
+
+.compras h5 {
+    color: white;
+    margin: -40px 0px 0px 0px;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.compras a {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 2px 4px 4px 4px;
+    font-size: 25px;
+    margin: 0px 0px 40px 0px;
+}
+
+/*********? form ***********/
+
+.form {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(5, 7, 12, 0.70), rgba(5, 7, 12, 0.70)), url(../img/logo.jpeg);
+    width: 100%;
+    height: 1000px;
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form h2 {
+    color: white;
+    font-size: 50px;
+}
+
+form h3 {
+    color: white;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+form {
+    background: rgba(107, 110, 119, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 800px;
+    width: 400px;
+}
+
+form label {
+    color: white;
+    font-size: 30px;
+}
+
+form input {
+    height: 40px;
+    width: 270px;
+    background-color: #cacaca;
+}
+
+form div input {
+    margin: 20px;
+}
+
+/********************? planes *********/
+
+.texte {
+    background-color: rgb(0, 0, 0);
+    font-family: "Oswald", sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    height: 100px;
+    padding: 10px 30px 0px 30px;
+}
+
+.texte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texte h1 {
+    color: rgb(255, 255, 255);
+}
+
+.power {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.power h2 {
+    color: rgb(0, 0, 0);
+}
+
+.power img {
+    height: 100%;
+    width: 800px;
+}
+
+.powerH {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.power a {
+    font-size: 30px;
+    background-color: white;
+    border: solid 2px black;
+    text-decoration: none;
+    color: black;
+}
+
+.hiper {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.hiper h2 {
+    color: rgb(255, 255, 255);
+}
+
+.hiper p {
+    color: rgb(255, 255, 255);
+}
+
+.hiper img {
+    height: 100%;
+    width: 800px;
+}
+
+.hiperh {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hiper a {
+    font-size: 30px;
+    background-color: rgb(0, 0, 0);
+    border: solid 2px rgb(255, 255, 255);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.pbin {
+    background-color: rgb(245, 237, 237);
+    display: flex;
+    justify-content: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.pbin img {
+    height: 100%;
+    width: 800px;
+}
+
+.pbin a {
+    font-size: 30px;
+    background-color: white;
+    border: solid 2px black;
+    text-decoration: none;
+    color: black;
+}
+
+.pbinh {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/**********************************? Tienda ************************************/
+
+.principal {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(5, 7, 12, 0.70), rgba(5, 7, 12, 0.70)), url(../img/logo.jpeg);
+    width: 100%;
+    height: 120vh;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 200px;
+    color: white;
+}
+
+/**********************************? Gimnasio ***********************************/
+
+.carrusel1 img {
+    height: 900px;
+}
+
+.puntogrid {
+    border: solid 15px rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.objetogrid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px black;
+    height: 5vh;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.grid-t {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+    background-color: black;
+}
+
+.grid-t img {
+    height: 100%;
+    width: 100%;
+}
+
+.grid-p {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+    background-color: black;
+}
+
+.grid-p img {
+    height: 100%;
+    width: 100%;
+}
+
+.grid-pl {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+    background-color: black;
+}
+
+.grid-pl img {
+    height: 100%;
+    width: 100%;
+}
+
+/************! FOOTER ************/
+
+.pie {
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-top: 2px solid black;
+    background-color: rgb(136, 136, 136);
+    height: 110px;
+}
+
+.pie .x {
+    display: flex;
+    flex-direction: column;
+}
+
+.pie a {
+    text-decoration: none;
+    color: black;
+}
+
+.pie img {
+    width: 30px;
+    height: 30px;
+}
+
+/******✨✨✨✨ MEDIA QUERY ✨✨✨✨******/
+/********************* Index *********************/
+@media screen and (max-width:1196px) {
+    .infor p {
+        font-size: 22px;
+        font-weight: 380;
+    }
+}
+
+@media screen and (max-width:1081px) {
+    .infor p {
+        font-size: 20px;
+        font-weight: 380;
+    }
+
+    .compras {
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: space-around;
+    }
+    
+}
+
+@media screen and (max-width:933px) {
+    .infor {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .infor img {
+        display: none;
+    }
+
+    .infor h3 {
+        font-size: 30px;
+    }
+
+    .infor p {
+        font-size: 15px;
+    }
+}
+
+.infor div{
+    height: 30vh;
+}
+@media screen and (max-width:833px) {
+    .atletas{
+        display: none;
+    }
+}
+
+/********************* Planes *********************/
+@media screen and (max-width:1400px) {
+    .power {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        font-family: "Oswald", sans-serif;
+        font-size: 28px;
+        font-weight: 300;
+    }
+
+    .power img {
+        height: 100%;
+        width: 600px;
+    }
+
+    .hiper {
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: row-reverse;
+        font-family: "Oswald", sans-serif;
+        font-size: 28px;
+        font-weight: 300;
+    }
+
+    .hiper img {
+        height: 100%;
+        width: 600px;
+    }
+
+    .pbin {
+        background-color: rgb(245, 237, 237);
+        display: flex;
+        justify-content: center;
+        font-family: "Oswald", sans-serif;
+        font-size: 28px;
+        font-weight: 300;
+    }
+
+    .pbin img {
+        height: 100%;
+        width: 600px;
+    }
+
+}
+
+@media screen and (max-width:1200px) {
+    .power {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        font-family: "Oswald", sans-serif;
+        font-size: 26px;
+        font-weight: 300;
+    }
+
+    .power img {
+        height: 100%;
+        width: 400px;
+    }
+
+    .hiper {
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: row-reverse;
+        font-family: "Oswald", sans-serif;
+        font-size: 26px;
+        font-weight: 300;
+    }
+
+    .hiper img {
+        height: 100%;
+        width: 400px;
+    }
+
+    .pbin {
+        background-color: rgb(245, 237, 237);
+        display: flex;
+        justify-content: center;
+        font-family: "Oswald", sans-serif;
+        font-size: 26px;
+        font-weight: 300;
+    }
+
+    .pbin img {
+        height: 100%;
+        width: 400px;
+    }
+
+}
+
+@media screen and (max-width:1081px) {
+    .power {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        font-family: "Oswald", sans-serif;
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+    .power img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .hiper {
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: column;
+        font-family: "Oswald", sans-serif;
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+    .hiper img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .pbin {
+        background-color: rgb(245, 237, 237);
+        display: flex;
+        flex-direction: column;
+        font-family: "Oswald", sans-serif;
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+    .pbin img {
+        height: 100%;
+        width: 100%;
+    }
+
+    /******** Footer */
+    .pie {
+        font-family: "Oswald", sans-serif;
+        display: flex;
+        justify-content: space-around;
+        border-top: 2px solid black;
+        background-color: rgb(136, 136, 136);
+        height: 15%;
+    }
+
+    .pie a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .pie img {
+        width: 30px;
+        height: 30px;
+    }
+}
