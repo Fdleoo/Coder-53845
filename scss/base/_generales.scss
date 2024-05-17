@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+//! RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Oswald", sans-serif;
+}
+
+// variables
+
+$color-prin:rgb(0, 0, 0);
+$color-prin-sec: rgb(62, 54, 54);
+$color-sec:rgb(215, 35, 35);
+$color-sec-sec: rgb(245, 237, 237);
+$fuente: "Oswald", sans-serif;
+
+// mapas
+
+$boton:(
+    borde-boton: black,
+    border-boton: solid 2px black,
+    color-text: white,
+);
+
+
+//! extend
+
+%flex-med{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%boton1{
+    background-color: $color-sec-sec;
+    border: 2px solid $color-prin-sec;
+}
